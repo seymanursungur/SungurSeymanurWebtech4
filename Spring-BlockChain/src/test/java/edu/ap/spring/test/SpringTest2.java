@@ -1,21 +1,21 @@
 package edu.ap.spring.test;
 
+import static org.junit.Assert.assertTrue;
+
+import java.awt.PageAttributes.MediaType;
+
+import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.junit.runners.MethodSorters;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
-
-import static org.junit.Assert.assertTrue;
-
-import org.junit.*;
-import org.junit.runners.MethodSorters;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
