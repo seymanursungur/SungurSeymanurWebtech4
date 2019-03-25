@@ -1,5 +1,0 @@
-Maak een Spring Boot webapplicatie om grades aan studenten te geven (cf. de oefening die we met JSP en JDBC hebben gemaakt).
-
-Voor de view maak je gebruik vanThymeleaf. Voor het bijhouden van de grades, maak je gebruik van JPA.
-
-Voorzie ook een methode die de grade details toont op basis van een url : bv. localhost:8080/voornaam/achternaam

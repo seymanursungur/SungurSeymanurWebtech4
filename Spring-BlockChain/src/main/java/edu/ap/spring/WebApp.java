@@ -1,11 +1,11 @@
-package edu.ap.spring.grade.jpa;
-
+package edu.ap.spring;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+
 @Entity
-public class Product {
+public class WebApp {
     @Id
     @GeneratedValue
     private Long id;
@@ -14,14 +14,14 @@ public class Product {
     @Column
     private String walletB;
     @Column
-    private int amount;
+    private int balance;
 
-    public Product() {}
+    public WebApp() {}
 
-    public Product(String walletA, String walletB, int amount) {
+    public WebApp(String walletA, String walletB, int balance) {
         this.walletA = walletA;
         this.walletB = walletB;
-        this.amount = amount;
+        this.balance = balance;
     }
 
     public String getWalletA() {
@@ -32,20 +32,20 @@ public class Product {
         this.walletA = walletA;
     }
 
-    public int getWalletB() {
+    public String getWalletB() {
         return walletB;
     }
 
-    public void setWalletB(int walletB) {
+    public void setWalletB(String walletB) {
         this.walletB = walletB;
     }
 
-    public int getAmount() {
-        return amount;
+    public int getbalance() {
+        return balance;
     }
 
-    public void setAmount(int amount) {
-        this.amount = amount;
+    public void setbalance(int balance) {
+        this.balance = balance;
     }
 
 }
