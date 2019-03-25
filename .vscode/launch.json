@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GradeApplication",
+            "request": "launch",
+            "mainClass": "edu.ap.spring.grade.GradeApplication"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BlockChainApplication",
             "request": "launch",
             "mainClass": "edu.ap.spring.BlockChainApplication",
